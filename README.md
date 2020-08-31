@@ -20,3 +20,6 @@ As many others I did not achieve the claimed *80%* test-accuracy but got to *74%
 6. Learning rate scheduling is important only for SGD (~3% improvement)
 7. Loading of .wav files every epoch takes a long time, so parsing them beforehand to numpy arrays actually saves a lot of time during training
 
+## Acknowledgements
+
+After my initial implementation got only ~55% accuracy I used other reimplementations as guidance, especially https://github.com/v-iashin/VoxCeleb/blob/master/identification.ipynb
